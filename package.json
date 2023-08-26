@@ -15,7 +15,10 @@
   },
   "scripts": {
     "clean": "rimraf target",
-    "emulator": "emulator @Pixel_2_API_29",
+    "emulator": "emulator @Pixel_XL_API_31",
     "wdio": "wdio run test/wdio.conf.ts"
+  },
+  "dependencies": {
+    "assert-ts": "^0.3.4"
   }
 }

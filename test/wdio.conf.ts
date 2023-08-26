@@ -87,7 +87,7 @@ export const config: Options.Testrunner = {
         app: __dirname + './../app/Android-NativeDemoApp-0.4.0.apk',
         appPackage: 'com.wdiodemoapp',
         appActivity: 'com.wdiodemoapp.MainActivity',
-        uiautomator2ServerLaunchTimeout : 100000
+        uiautomator2ServerLaunchTimeout : 200000
     }],
     //
     // ===================
@@ -178,7 +178,7 @@ export const config: Options.Testrunner = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 180000
     },
     //
     // =====
